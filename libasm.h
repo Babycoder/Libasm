@@ -6,7 +6,7 @@
 /*   By: ayghazal <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/11 19:18:16 by ayghazal          #+#    #+#             */
-/*   Updated: 2020/11/22 19:47:01 by ayghazal         ###   ########.fr       */
+/*   Updated: 2020/11/23 18:39:48 by ayghazal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <fcntl.h>
-
+#include <string.h>
 
 size_t		ft_strlen(const char *s);
 int			ft_strcmp(const char *s1, const char *s2);
