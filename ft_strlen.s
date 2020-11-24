@@ -1,5 +1,3 @@
-; nasm -f macho64 ft_strlen.s && gcc -o exec main.c ft_strlen.o && ./exec
-
 section .text
 	global _ft_strlen
 
