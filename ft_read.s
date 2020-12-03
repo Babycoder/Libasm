@@ -3,8 +3,6 @@ section .text
 	extern ___error
 
 _ft_read :
-	test edi, edi
-	js exit
 	mov rax, 0x2000003
 	syscall
 	jc exit
